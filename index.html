@@ -12,7 +12,43 @@
 
 
 <body>
-    <div id="menu"></div>
+    <div id="menu">
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo do LinkedIn" id="logo">
+        </div>
+        <div id="pesquisa">
+            <input type="text" id="pesquisa" placeholder="Pesquisar">
+        </div>
+        <div id="menu-opcoes">
+            <div id="inicio">
+                <img src="img/inicio.png" alt="Início" id="inicio">
+                <p class="subtexto">Início</p>
+            </div>
+            <div id="minha-rede">
+                <img src="img/minha-rede.png" alt="Minha rede" id="minharede">
+                <p class="subtexto">Minha rede</p>
+            </div>
+            <div id="vagas">
+                <img src="img/vagas.png" alt="Vagas" id="vagas">
+                <p class="subtexto">Empregos</p>
+            </div>
+            <div id="mensagens">
+                <img src="img/mensagens.png" alt="Mensagens" id="mensagens">
+                <p class="subtexto">Mensagens</p>
+            </div>
+            <div id="notificacoes">
+                <img src="img/notificacoes.png" alt="Notificações" id="notificacoes">
+                <p class="subtexto">Notificações</p>
+            </div>
+            <div id="Perfil">
+                <img src="img/perfil.png" alt="Perfil" id="perfil">
+                <p class="subtexto">Eu</p>
+            </div>
+            <div id="menunegocios">
+                <img src="img/menunegocios.png" alt="Para negócios" id="menunegocios">
+                <p class="subtexto">Para negócios</p>
+            </div>
+    </div>
     <div id="conteudo">
         <div id="coluna1">
             <div id="perfil">
@@ -29,14 +65,82 @@
                         Aquidauana, Mato Grosso do Sul
                     </p>
                 </div>
-                <div id="dados"></div>
+                <div id="dados">
+                    <h2 class="subtitulo">Visualizações do perfil</h2>
+                    <h2 class="subtitulo">Impressões da publicação</h2>
+                </div>
+                <div id="opcoes">
+                    <h2 class="subtitulo">Itens salvos</h2>
+                    <h2 class="subtitulo">Grupos</h2>
+                    <h2 class="subtitulo">Eventos</h2>
+                </div>
             </div>
         </div>
         <div id="coluna2">
-            <div id="postagens"></div>
+            <div id="postagens">
+                <div id="pub">
+                    <img src="img/foto.jpg" alt="Foto de perfil" id="foto">
+                    <input type="text" id="postar" placeholder="Comece uma publicação">
+                </div>
+                <div id="opcoespub">
+                    <img src="img/fotoicon.png" alt="Foto">
+                    <p class="subtexto">Foto</p>
+                    <img src="img/videoicon.png" alt="Vídeo">
+                    <p class="subtexto">Vídeo</p>
+                    <img src="img/artigoicon.png" alt="Escrever artigo">
+                </div>
+                <div id="feed">
+                    <div id="post">
+                        <img src="img/github.jpg" alt="Foto de perfil" id="foto">
+                        <h1 class="titulos">GitHub</h1>
+                        <p class="subtexto">4.649.529 seguidores</p>
+                        <p class="subtexto">Promovido</p>
+                        <p class="texto">Dê às suas equipes as ferramentas de que precisam para trabalhar de maneira mais inteligente, rápida e colaborativa.</p>
+                        <img src="img/github" alt="github" id="fotopub">
+                    </div>
+                    <div id="botoesfeed">
+                        <button id="curtir">Curtir</button>
+                        <button id="comentar">Comentar</button>
+                        <button id="compartilhar">Compartilhar</button>
+                        <button id="enviar">Enviar</button>
+                    </div>
+                    <div id="post">
+                        <img src="img/samuel.jpg" alt="Samuel Cavalcante" id="foto">
+                        <h1 class="titulos">Samuel Cavalcante</h1>
+                        <p class="subtexto">Mentor e Agile Coach | Palestrante e Especialista em Kanban e Transfor...</p>
+                        <p class="subtexto">1 sem.</p>
+                        <p class="texto">Encerrando a turma Noturno de Fevereiro de #KSI</p>
+                        <p class="texto">#Kanban System Improvement pela Kanban University e K21 Educação, foi...</p>
+                        <img src="img/samuelcavalcante.jpg" alt="Samuel Cavalcante" id="fotopub">
+                        <p class="subtexto">9 comentários - 6 compartilhamentos</p>
+                </div>
+                <div id="botoesfeed">
+                    <button id="curtir">Curtir</button>
+                    <button id="comentar">Comentar</button>
+                    <button id="compartilhar">Compartilhar</button>
+                    <button id="enviar">Enviar</button>
+                </div>
+            </div>
         </div>
         <div id="coluna3">
-            <div id="noticias"></div>
+            <div id="noticias">
+                <div id="temasalta">
+                    <h1 class="titulos">Temas em alta</h1>
+                    <p class="subtexto">por LinkedIn Noticias</p>
+                    <h2 class="texto">Vagas de trainee e estágio</h2>
+                    <p class="subtexto">  há 10 d • 40.870 leitores</p>
+                    <h2 class="texto">Ansiedade em alta: o que lideranças podem fazer?</h2>
+                    <p class="subtexto"> há 6 d • 3.124 leitores</p>
+                    <h2 class="texto">Trump impõe taxa de 25% sobre aço e alumínio</h2>
+                    <p class="subtexto"> há 2 d • 1.038 leitores</p>
+                    <h2 class="texto">Novidades do LinkedIn Learning</h2>
+                    <p class="subtexto">há 10 d • 869 leitores</p>
+                    <h2 class="texto">Raio-x da gestão nas PMEs</h2>
+                    <p class="subtexto">há 7 h • 735 leitores</p>
+                    <br>
+                    <h2 class="texto">Exibir mais</h2>   
+                </div>
+            </div>
         </div>
     </div>
 </body>
