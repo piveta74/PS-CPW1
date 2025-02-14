@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "light";
+    src: url(../fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "semi-bold";
+    src: url(../fonts/SourceSansPro-Semibold.ttf);
+}

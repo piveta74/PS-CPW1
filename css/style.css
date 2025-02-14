@@ -1,0 +1,58 @@
+body{
+    margin: 0;   
+}
+.titulos{
+    font-family: 'regular';
+}
+
+.texto{
+    font-family: 'semi-bold';
+}
+.subtexto{
+    font-family: 'light';
+    margin: 0px
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20%;
+    text-align: center;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    margin: 0px 30px;
+}
+
+#pesquisa{
+    width: 300px;
+    height: 30px;
+    margin: 5px 30px;
+}
+
+
+#iconmenu{
+    width: 30px;
+    height: 30px;
+    margin: 0 30px;
+}
+
+#perfilmenu{
+    width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+}
+
+#conteudo{
+    display: flex;
+}
+
+#coluna2{
+    display: flex;
+}
+
+#coluna3{
+    display: flex;
+}
