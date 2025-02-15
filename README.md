@@ -1,5 +1,7 @@
 # PS-CPW1
- Clone LinkedIn
+Clone LinkedIn
+
+
 O principal objetivo do LinkedIn é proporcionar um ambiente seguro e focado no desenvolvimento pessoal e profissional dos usuários. A plataforma é ideal para:
 
 Estudantes que desejam construir uma rede de contatos desde cedo, facilitando futuras oportunidades profissionais.
