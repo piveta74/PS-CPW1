@@ -1,5 +1,6 @@
 body{
     margin: 0;   
+    background-color: #f4f2ee;
 }
 .titulos{
     font-family: 'regular';
@@ -7,17 +8,24 @@ body{
 
 .texto{
     font-family: 'semi-bold';
+    font-size: 15px;
 }
 .subtexto{
     font-family: 'light';
     margin: 0px
 }
 
+.numeros{
+    font-family: 'semi-bold';
+}
+
 #menu{
     display: flex;
     flex-direction: row;
-    margin: 10px 20%;
+    padding: 5px 20%;
     text-align: center;
+    background-color: #ffff;
+    font-size: 15px;
 }
 
 #logo{
@@ -40,19 +48,108 @@ body{
 }
 
 #perfilmenu{
-    width: 30px;
-    height: 30px;
+    width: 30px; 
     margin: 0px 30px;
+    border-radius: 50%;
 }
 
 #conteudo{
     display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+#capa{
+    width: 100%;
+    height: 50px;
+    border-radius:10px 10px 0 0;
+}
+
+#fotoperfil{
+    margin-left: 20px;
+    margin-top: -40px;
+    width: 85px;
+    border-radius:50%;
+    border: 3px solid #ffff;
+}
+
+#bloco{
+    background-color: #ffff;
+    margin: 30px 10px 10px 140px;
+    border-radius: 10px;
+}
+
+#bloco h1, #bloco p{
+    margin: 0px 20px;
+    padding-bottom: 20px;
+}
+
+#dados{
+    background-color: #ffff;
+    margin: 30px 10px 10px 140px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#opcoes{
+    background-color: #ffff;
+    margin: 30px 10px 10px 140px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #coluna2{
     display: flex;
+    width: 80%;
+}
+
+#postagens{
+margin:0;
+}
+
+#pub, #opcoespub{
+    background-color: #ffff;
+    margin: 40px 10px 0px 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#fotoperfil2{
+    width: 70px;
+    border-radius:50%;
+}
+
+#publicar{
+    width: 300px;
+    height: 30px;
+}
+
+#opcoespub{
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#opcoespub img{
+    width: 25px;
+    margin-left: 50px;
+}
+#opcoespub p{
+    margin: 10px 80px 10px 0px;
 }
 
 #coluna3{
     display: flex;
+    width: 20%;
 }
+
+#temasalta{
+    background-color: #ffff;
+    margin: 40px 140px 20px 0px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
